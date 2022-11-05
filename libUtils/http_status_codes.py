@@ -1,0 +1,80 @@
+
+
+class HTTPStatusCodes:
+
+     INFO_STATUS_CONTINUE = 100
+     INFO_STATUS_SWITCHING_PROTOCOLS = 101
+     INFO_STATUS_PROCESSING = 102
+
+     SUCCESS_STATUS_OK = 200
+     SUCCESS_STATUS_CREATED = 201
+     SUCCESS_STATUS_ACCEPTED = 202
+     SUCCESS_STATUS_MULTI_STATUS = 207
+     SUCCESS_STATUS_ALREADY_REPORTED = 208
+     SUCCESS_STATUS_NON_AUTHORITATIVE_INFORMATION = 203
+     SUCCESS_STATUS_NO_CONTENT = 204
+     SUCCESS_STATUS_RESET_CONTENT = 205
+     SUCCESS_STATUS_PARTIAL_CONTENT = 206
+     SUCCESS_STATUS_MULTI_STATUS = 207
+     SUCCESS_STATUS_ALREADY_REPORTED = 208
+     SUCCESS_STATUS_IM_USED = 226
+
+     REDIRECTION_STATUS_MULTIPLE_CHOICES = 300
+     REDIRECTION_STATUS_MOVED_PERMANENTLY = 301
+     REDIRECTION_STATUS_FOUND = 302
+     REDIRECTION_STATUS_SEE_OTHER = 303
+     REDIRECTION_STATUS_NOT_MODIFIED = 304
+     REDIRECTION_STATUS_USE_PROXY = 305
+     REDIRECTION_STATUS_TEMPORARY_REDIRECT = 307
+     REDIRECTION_STATUS_PERMANENT_REDIRECT = 308
+
+     CLIENT_STATUS_BAD_REQUEST = 400
+     CLIENT_STATUS_UNAUTHORIZED = 401
+     CLIENT_STATUS_PAYMENT_REQUIRED = 402
+     CLIENT_STATUS_FORBIDDEN = 403
+     CLIENT_STATUS_NOT_FOUND = 404
+     CLIENT_METHOD_NOT_ALLOWED = 405
+     CLIENT_STATUS_NOT_ACCEPTABLE = 406
+     CLIENT_STATUS_PROXY_AUTH_REQUIRED = 407
+     CLIENT_STATUS_REQUEST_TIME_OUT = 408
+
+
+"""
+408 Request Timeout
+409 Conflict
+410 Gone
+411 Length Required
+412 Precondition Failed
+413 Payload Too Large
+414 Request-URI Too Long
+415 Unsupported Media Type
+416 Requested Range Not Satisfiable
+417 Expectation Failed
+418 I'm a teapot
+421 Misdirected Request
+422 Unprocessable Entity
+423 Locked
+424 Failed Dependency
+426 Upgrade Required
+428 Precondition Required
+429 Too Many Requests
+431 Request Header Fields Too Large
+444 Connection Closed Without Response
+451 Unavailable For Legal Reasons
+499 Client Closed Request
+
+5×× Server Error HTTP status codes
+500 Internal Server Error
+501 Not Implemented
+502 Bad Gateway
+503 Service Unavailable
+504 Gateway Timeout
+505 HTTP Version Not Supported
+506 Variant Also Negotiates
+507 Insufficient Storage
+508 Loop Detected
+510 Not Extended
+511 Network Authentication Required
+599 Network Connect Timeout Error
+
+"""
